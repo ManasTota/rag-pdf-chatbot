@@ -16,6 +16,9 @@ htmlcov/
 # Environment variables
 .env
 
+#secrets
+client_secret.json
+
 # Streamlit/App specific generated files
 temp_pdfs/
 faiss_index/
