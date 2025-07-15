@@ -1,0 +1,40 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Virtual environment managed by Poetry
+.venv/
+
+# Dependencies installed by Poetry
+# The .venv/ line above generally covers this, but explicit is sometimes clearer
+# poetry.lock should NOT be ignored - it ensures reproducible builds!
+# pyproject.toml should NOT be ignored - it defines your project
+
+# Environment variables
+.env
+
+# Streamlit-specific cache and temporary files
+.streamlit/
+temp_pdfs/ # Directory where temporary PDFs are stored during processing
+faiss_index/ # Directory where FAISS index is stored
+
+# IDE and Editor files
+.idea/             # JetBrains IDEs (PyCharm, IntelliJ)
+.vscode/           # VS Code
+*.sublime-project  # Sublime Text
+*.sublime-workspace
+.DS_Store          # macOS specific
+.Trash             # macOS specific
+Thumbs.db          # Windows specific
+
+# Test and coverage reports
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Distribution and packaging
+/dist/
+/build/
+*.egg-info/

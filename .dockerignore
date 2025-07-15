@@ -1,0 +1,35 @@
+# Git related
+.git/
+.gitignore
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environment (often named .venv by Poetry)
+.venv/
+
+# Environment variables
+.env
+
+# Streamlit/App specific generated files
+temp_pdfs/
+faiss_index/
+
+# IDE and editor files (often included in .git/ or .gitignore, but good to be explicit)
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Build artifacts and distribution files (if you were building a package)
+dist/
+build/
+*.egg-info/
+
+# Any local configuration files you don't want in the image
+poetry.toml # Local Poetry configuration (optional, if you have one)
