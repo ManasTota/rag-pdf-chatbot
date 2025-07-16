@@ -13,3 +13,8 @@ Remove venv
 
 #### Very important
 Name the ```package``` name in ```.toml``` same as the app folder we work in (containing ```.py``` files) i.e ```app``` for our instance
+
+
+# Main cmd
+
+    poetry run streamlit run app/main.py
