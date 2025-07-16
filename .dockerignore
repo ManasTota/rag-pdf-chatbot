@@ -18,6 +18,7 @@ htmlcov/
 
 #secrets
 client_secret.json
+service_account.json
 
 # Streamlit/App specific generated files
 temp_pdfs/
@@ -36,3 +37,4 @@ build/
 
 # Any local configuration files you don't want in the image
 poetry.toml # Local Poetry configuration (optional, if you have one)
+debug_env.py

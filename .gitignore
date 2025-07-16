@@ -17,11 +17,14 @@ __pycache__/
 
 #secrets
 client_secret.json
+service_account.json
+debug_env.py
 
 # Streamlit-specific cache and temporary files
 .streamlit/
 temp_pdfs/ # Directory where temporary PDFs are stored during processing
-faiss_index/ # Directory where FAISS index is stored
+rag_pdf_chatbot
+faiss_index
 
 # IDE and Editor files
 .idea/             # JetBrains IDEs (PyCharm, IntelliJ)
