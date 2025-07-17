@@ -18,3 +18,9 @@ Name the ```package``` name in ```.toml``` same as the app folder we work in (co
 # Main cmd
 
     poetry run streamlit run app/main.py
+
+
+docker build -t rag-pdf-chatbot .
+
+
+docker run -p 8501:8501 --env-file .env rag-pdf-chatbot

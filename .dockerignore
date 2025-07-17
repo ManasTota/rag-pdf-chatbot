@@ -29,6 +29,7 @@ faiss_index/
 .vscode/
 .DS_Store
 Thumbs.db
+*.log
 
 # Build artifacts and distribution files (if you were building a package)
 dist/
